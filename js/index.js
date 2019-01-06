@@ -1,6 +1,5 @@
-var aa =' 5456335'
+require(['config'],function(){
+	require(['load','list'],function(){
 
-
-function aa(){
-    console.log('esrtrdfyguyhy')
-}
+	})
+})

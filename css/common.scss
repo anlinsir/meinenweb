@@ -1,3 +1,4 @@
+
 *{
 	margin: 0;
 	padding: 0;
@@ -15,6 +16,50 @@ button{
 	border: none;
 	background:none;
 }
+ul li{
+	list-style:none;
+}
+._flex{
+	display:flex;
+}
+._flexA{
+	display:flex;
+	justify-content: space-around;
+}
+._flexB{
+	display:flex;
+	justify-content: space-between;
+}
+._flexW{
+	flex-wrap: wrap;
+}
+
+
 .center{
 	text-align: center;
+}
+// 确定位置
+._showposition{
+	border:1px solid red;
+}
+//盒模型
+._box{
+	box-sizing:border-box;
+}
+
+
+
+//width height
+@mixin wh($W,$H){
+	width:$W;
+	height:$H;
+}
+// text font-size color:
+@mixin _color($size, $color){
+	font-size: $size;
+	color: $color;
+}
+// text transform:
+@mixin _tran($Y){
+	transform:translateY($Y);
 }

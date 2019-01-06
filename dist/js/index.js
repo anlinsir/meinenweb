@@ -1,1 +1,1 @@
-var aa=" 5456335";function aa(){console.log("esrtrdfyguyhy")}
+require(["config"],function(){require(["load","list"],function(){})});

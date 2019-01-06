@@ -3,19 +3,34 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width,height=device-height,user-scalable=no,inital-scale=1.0,minimum=1.0,maximum=1.0">
+	<!-- <meta name="viewport" content="width=device-width,height=device-height,user-scalable=no,inital-scale=1.0,minimum=1.0,maximum=1.0" /> -->
+	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
 	<title>加载中...</title>
+	<script src="lib/require.js" data-main="./dist/js/index.js"></script>  
+	<link rel="shortcut icon" href="/favicon.ico" />
 	<link rel="stylesheet" type="text/css" href="./dist/css/common.css">
 	<link rel="stylesheet" type="text/css" href="./dist/css/index.css">
 
 </head>
 <body>
 
-	<div class="center">
-		<button >
-			<a href="./html/reward.html" title="打赏">点</a>
-		</button>
-	</div>
+	<header class="header"></header>
+
+
+	<section class="mian">
+		<div class="center">
+			<button >
+				<a href="./html/reward.html" title="打赏">点</a>
+			</button>
+		</div>
+
+		<div class="list">
+			请等待...
+		</div>
+
+	</section>
+
+	<footer class="footer"></footer>
 	
 </body>
 </html>

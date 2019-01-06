@@ -1,0 +1,1 @@
+define(["mock","jquery"],function(i,t){var s=i.mock({"list|10":[{"id|+1":1}]});t(".list").html(JSON.parse(JSON.stringify(s)).list[5].id)});
